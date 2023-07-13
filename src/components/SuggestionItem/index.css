@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.suggestion-item{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    list-style-type: none;
+}
+.suggestion-text{
+    color: #475569;
+    font-family: "roboto";
+    font-size: 16px;
+    margin: 0;
+
+}
+@media screen and (min-wiidth:768px){
+    .suggestion-text{
+        font-size: 24px;
+    }
+}
+.arrow-button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.arrow{
+    height: 14px;
+    width: 16px;
+}
+@media screen and (min-wiidth:768px){
+    .arrow{
+        height: 24px;
+        width: 24px;
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
